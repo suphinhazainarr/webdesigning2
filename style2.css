@@ -13,26 +13,27 @@ p{
     justify-content: center;
 }
 
-.body{
+.android{
 
 }
 
 
 
 .head{
-    
+    margin: 0 auto;
     background-color: #5f93e8;
     width: 200px;
     height: 200px;
     border-radius: 200px 200px 0 0;
     transition: all 1s;
-    margin: 0 auto;
+    margin-bottom: 20px;
+    
 }
 
 .mouth {
-    background-color:red;
+    background-color:white;
     width: 20px; 
-      height: 1px; 
+    height: 1px; 
     position: relative;
     top: 130px; 
       left: 48px;
@@ -64,50 +65,63 @@ p{
     width: 200px;
     height: 220px;
     background-color: #5f93e8;
-    margin-top: 10px;
+    margin: 0 auto;
     border-bottom-left-radius: 25%;
     border-bottom-right-radius: 25%;
+    
 
 }
 .leftarm{
+    
     width: 40px;
     height: 170px;
     background-color: #5f93e8;
-    border-radius: 100%;
+    border-radius: 100px;
     position: relative;
     top:10px;
     right: 50px;
     transition: all 1s;
+    margin-right: 10px;
 }
 .rightarm{
     width: 40px;
     height: 170px;
     background-color:#5f93e8;
-    border-radius: 100%;
+    border-radius: 100px;
     position: relative;
     bottom: 155px;
     left: 210px;
     transition: all 1s;
+    margin-left: 1px;
 }
+
+.lowerbody{
+    width: 200px; 
+	height: 200px;
+display: flex;
+margin: 0 auto;
+}
+
 .leftleg{
-    width: 40px;
-    height: 100px;
+    width: 40px; 
+        height: 120px;
+        border-radius: 0 0 100px 100px; 
     background-color:#5f93e8;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
+    margin-left: 45px; 
     position: relative;
-    left:44px;
     bottom: 20px;
+    
+    
 }
 .rightleg{
-    width: 40px;
-    height: 100px;
+    
+    width: 40px; 
+    height: 120px;
+    border-radius: 0 0 100px 100px; 
     background-color: #5f93e8;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
+    margin-left: 30px; 
     position: relative;
-    left: 112px;
-    bottom: 120px;
+    bottom: 20px;
     
 }
 .rightarm:hover{
@@ -117,15 +131,17 @@ p{
     transform: translate(0px,-50%) scale(1.2);
 }
 .rightleg:hover{
-    transform: rotate(-25deg) ;
+    transform: rotate(-20deg) ;
 }
 .leftleg:hover{
-    transform: rotate(25deg);
+    transform: rotate(20deg);
 }
 .head:hover{
     width: 300px;
     transition: 1s ease-in-out;
+
 }
+
 .head:hover .righteye,
 .head:hover .lefteye {
   box-shadow: 
@@ -134,4 +150,3 @@ p{
 .head:hover .mouth{
     display: block;
 }
-
