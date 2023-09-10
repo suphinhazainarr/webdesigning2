@@ -1,0 +1,43 @@
+body{
+background-image:url(https://marketplace.canva.com/EAFagvrZLzs/2/0/1600w/canva-blue-watercolor-linktree-background-4-elW35dq9w.jpg) ;
+background-size: cover;
+}
+
+h2,p{
+    
+    /*text-align: center;*/
+    border: 5px solid rgba(225,176, 170, 0.5);
+}
+p{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;;
+}
+header{
+    color: blue;
+}
+
+
+
+
+.webtext{
+    border: 5px dashed green;
+}
+.active{
+    color: red  ;
+}
+#div1{
+    background-color: aliceblue;
+}
+#div2{
+    background-color: rgba(255, 0,0, 0.2);
+}
+
+*{
+    text-align: right;
+}
+img{
+    float: left;
+}
